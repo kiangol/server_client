@@ -27,7 +27,9 @@ Now the client should start sending over the files to the server and write outpu
 
 ### Run with packet loss
 To run the client with a simulated packet loss of 10%:
-After compiling with ```make```:
+
+First, we need to compile the program with ```make``` if not already done. 
+
 Step 1: start the server
 ```
 make checkserver
