@@ -38,7 +38,7 @@ make checkserver
 Step 2: start the client in loss-mode
 ```
 make checkloss
-
+```
 
 ## Check for memory leaks
 Step 1: Run the server with valgrind:
@@ -49,3 +49,4 @@ make valgrindserver
 Step 2: Run the client with valgrind:
 ```
 make valgrind
+```
