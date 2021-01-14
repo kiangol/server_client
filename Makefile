@@ -6,10 +6,12 @@ all: clean client server
 %.o:%.c
 	gcc $(CFLAGS) -c $^
 
-client: client.o pgmread.o send_packet.o linkedlist.o
+client: 
+	client.o pgmread.o send_packet.o linkedlist.o
 	gcc $(CFLAGS) client.o pgmread.o send_packet.o linkedlist.o -o client
 
-server: server.o pgmread.o
+server: 
+	server.o pgmread.o
 	gcc $(CFLAGS) server.o pgmread.o -o server
 
 clean:
