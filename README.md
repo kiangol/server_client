@@ -1,6 +1,6 @@
 # server_client
 
-An implementation of flow- and loss control for UDP in C, as part of home exam in IN2140 - OS and datacommunication. 
+An implementation of flow- and loss control for UDP in C, as part of home exam in the course **IN2140 - OS and datacommunication.** 
 
 ## Setup and run
 Developed anad tested on macOS Catalina 10.5
