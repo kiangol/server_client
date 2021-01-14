@@ -3,11 +3,11 @@
 An implementation of flow- and loss control for UDP in C, as part of home exam in the course **IN2140 - OS and data communication.** 
 
 ## Setup and run
-Developed anad tested on macOS Catalina 10.5
+Developed and tested on macOS Catalina 10.5. Requires Valgrind to run checks for memory leak. 
 
-### Running
+## Running
 
-## Normal run without simulated loss
+### Normal run without simulated loss
 Step 1: Compile
 ```
 make
@@ -25,9 +25,9 @@ make check
 
 Now the client should start sending over the files to the server and write output log to ```results.txt```
 
-## Run with packet loss
+### Run with packet loss
 To run the client with a simulated packet loss of 10%:
-
+After compiling with ```make```:
 Step 1: start the server
 ```
 make checkserver
